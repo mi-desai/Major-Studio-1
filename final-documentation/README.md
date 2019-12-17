@@ -75,6 +75,9 @@ I addressed each element here by matching up the typography on each "slide" in t
 
 Color palette (From Coolors.co): <br>
 
+
+![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/mobileC.png)
+
 <br>
 <br>
 
