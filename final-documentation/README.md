@@ -11,7 +11,7 @@
 Listening to the Met describe their tagging system is what made me choose this project. I wanted a visualization that would allow for an elegant design for comparing and ranking categories, which is why I settled on a bump chart made in D3. 
 
 
-
+![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/qualitative.png)
 
 
 
