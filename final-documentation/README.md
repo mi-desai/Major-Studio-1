@@ -8,6 +8,10 @@
 # Unit Two - Qualitative
 
 
+Listening to the Met describe their tagging system is what made me choose this project. I wanted a visualization that would allow for an elegant design for comparing and ranking categories, which is why I settled on a bump chart made in D3. 
+
+
+
 
 
 
@@ -21,16 +25,32 @@
 
 ## Stage One - Searching for Subject Matter
 
-I've wanted to engage data visualization on subjects that I know a little bit about - so after doing a fair amount of research and seeing that the Met had gone through a restructuring of its finances and undergone a leadership change in 2016. So 
-
+I've wanted to engage data visualization on subjects that I know a little bit about - so after doing a fair amount of research and seeing that the Met had gone through a restructuring of its finances and undergone a leadership change in 2016. Given my focus in my professional career, I decided this would be a perfect subject to explore through design and visualization. 
 
 ## Stage Two - Designing and Re-Designing
 
-I really struggled to come up with a design for this project that would tell the entire story of the restructuring. Originally I wanted to do one SVG-based visualization  in D3, but I couldn't think of a way to explore the Met's finances in a single SVG that would have worked for every
+I really struggled to come up with a design for this project that would tell the entire story of the restructuring. Originally I wanted to do one SVG-based visualization  in D3, but I couldn't think of a way to explore the Met's finances in a single SVG that would have worked for every topic I wanted to cover. 
+
+I worked on three design 'themes' that I think are necessary for financial data: 
+
+<ul>
+  <li>Parts of a Whole</li>
+  <li>Trend over Time</li>
+  <li>Modularity - elements in isolation vs. integrated together</li>
+  <li>Absolute vs relativze sizes and changes</li>
+  <li>Context & Comparability</li>
+  <li>Narrative/So What?</li>
+</ul>
+
+I decided to keep it simple and divide everything I wanted/could discuss into separate slides to achieve modularity, and for the graphs to make sure I was expressing parts of a whole.
 
 ## Using TUI.Charts to Overcome a Hurdle
 
+I used a library called tui-charts to overcome the hurdle of having to make multiple, stateful D3 graphs with limited experience in the library. 
 
+https://github.com/nhn/tui.chart
+
+Because my design focus kept changing over what I wanted to do with the Met financial data, I used this chart to take a "shortcut" over this technical part of the process to create "Met in the Money."
 
 # Unit Four - Mobile
 
