@@ -81,13 +81,9 @@ The main elements of the feedback for the last project were:
 
 I addressed each element here by matching up the typography on each "slide" in the desktop version and getting a unified color palette going, which can be seen below. Where other colors were required, I used complementary colors with a softened hue or slightly darker versions of the same colors. I wanted to make sure the color palette was somewhat in line with the appearence of the Met website which has a grey/red color scheme. 
 
-Color palette (From Coolors.co): <br>
-
+Color palette (From Coolors.co): 
 
 ![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/mobileC.png)
-
-<br>
-<br>
 
 By increasing the size of the typography of each of the graph titles, the viewer knows exactly where to look first, creating a visual hierarchy.
 
@@ -99,9 +95,7 @@ Additionally, I rewrote most of my jQuery to get the site working with 'next' an
 
 I used Bootstrap.js to reconstruct the "Met in the Money" website from the ground-up for mobile. I decided to approach it that way since my styles and html for the desktop website was already extremely complicated and many of its rules re: styling would have overlapped or conflicted with Bootstrap. Additionally, there was no need for much of the functionality I created in Jquery for the drop-down, or next buttons on mobile, since SCROLLING is the best way to progress through a long article-like piece like this one. Primarily, it would have conflicted with the numerous CSS Flex Containers I had set up in the desktop version.
 
-<br>
 ![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/mobileA.png)
-<br>
 
 In fact, using Bootstrap for a scrolling-only experience simplified the website significantly. I decided against many columns since width was limited, and the only flaws appear in the SVG charts, whose legend appears to edge over the right margin, which I tried to correct but couldn't. Still, the scrolling experience may in fact be a better way to proceed through a project like this.
 
