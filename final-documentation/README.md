@@ -1,22 +1,26 @@
 # Unit One - Quantitative
 
+![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/quantitative.png)
+
+![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/MS1%20Quantitative%20Visualization.jpg)
+
+![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/quant-excel.png)
 
 
+The project here was designed to estimate the spending by department on acquired artwork in a given year by the Metropolitan Museum of Art. 
 
+Using the CSV, I narrowed everything down to "Credit Line" which included a property showing if the artwork was acquired or donated, and then assigned them to the appropriate department, all using Excel. Then I took the Met spending levels and divided them by objects acquired in that particular year. 
+
+As this was my first-ever data visualization assignment, I used a tool I was familiar with at the time (Excel) to create a TreeMap. 
 
 
 # Unit Two - Qualitative
 
-
 Listening to the Met describe their tagging system is what made me choose this project. I wanted a visualization that would allow for an elegant design for comparing and ranking categories, which is why I settled on a bump chart made in D3. 
 
+![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/qualitative.PNG)
 
-![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/qualitative.png)
-
-
-
-
-
+Once again, I used the CSV to narrow the data down to paintings and then took stock of all their tags and arranged them in a matrix where they could be counted. I used this matrix to create a json that I loaded into the qualitative project and used one of Mike Bostock's bl.ocks as inspiration for the chart, which I was able to reuse and assign some unique color patterns to in order to complete the project.The visualization is not interactive. 
 
 # Unit Three - Interactive
 
@@ -44,6 +48,8 @@ I worked on three design 'themes' that I think are necessary for financial data:
 
 I decided to keep it simple and divide everything I wanted/could discuss into separate slides to achieve modularity, and for the graphs to make sure I was expressing parts of a whole.
 
+![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/slide-example.PNG)
+
 ## Using TUI.Charts to Overcome a Hurdle
 
 I used a library called tui-charts to overcome the hurdle of having to make multiple, stateful D3 graphs with limited experience in the library. 
@@ -51,6 +57,8 @@ I used a library called tui-charts to overcome the hurdle of having to make mult
 https://github.com/nhn/tui.chart
 
 Because my design focus kept changing over what I wanted to do with the Met financial data, I used this chart to take a "shortcut" over this technical part of the process to create "Met in the Money."
+
+Please see either the live website above, or look at the video (met-in-the-money.mp4) to get an idea of the full functionality of this project.
 
 # Unit Four - Mobile
 
@@ -92,11 +100,13 @@ Additionally, I rewrote most of my jQuery to get the site working with 'next' an
 I used Bootstrap.js to reconstruct the "Met in the Money" website from the ground-up for mobile. I decided to approach it that way since my styles and html for the desktop website was already extremely complicated and many of its rules re: styling would have overlapped or conflicted with Bootstrap. Additionally, there was no need for much of the functionality I created in Jquery for the drop-down, or next buttons on mobile, since SCROLLING is the best way to progress through a long article-like piece like this one. Primarily, it would have conflicted with the numerous CSS Flex Containers I had set up in the desktop version.
 
 <br>
-[goes here]
+![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/mobileA.png)
 <br>
 
 In fact, using Bootstrap for a scrolling-only experience simplified the website significantly. I decided against many columns since width was limited, and the only flaws appear in the SVG charts, whose legend appears to edge over the right margin, which I tried to correct but couldn't. Still, the scrolling experience may in fact be a better way to proceed through a project like this.
 
 In the future, I plan on utilizing Bootstrap to construct any websites I build because of its mobile support. When I asked family to test out to see if they could view my project, they all tried to look at the desktop version on their phone and complained that everything appeared to be a mess. It may make sense, therefore, to design any information-intensive apps or articles like "Met in the Money" for mobile first and for the desktop as a secondary concern.
+
+![](https://github.com/mi-desai/Major-Studio-1/blob/master/final-documentation/mobileB.png)
 
 WHEN VIEWING THIS PROJECT, PLEASE USE A MOBILE VIEW ON INSPECTOR.
